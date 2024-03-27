@@ -1,0 +1,3 @@
+2) We have done testing on our main sensor, the water board, and have been able to generate roughly 1.5 volts out of it when submerged in water. This was while it was connected to a 5 volt source.
+3) We have a motor that is in the process of being ordered, and we have begun a 3D design in OnShape for a custom holder of the motor. We also have begun sketching out a model for our main platform which will hold our water tank and more.
+4) We have one function element that is currently working, and that is our water board. We plan to use the voltage it produces to open up a bigger, 12 volt circuit that will power the motor, and thus move the car.
