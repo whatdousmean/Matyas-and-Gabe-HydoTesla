@@ -11,7 +11,7 @@ void loop() {
   // Prints the sensor value
   delay(1); 
   
-  if (sensorValue < 100) {
+  if (sensorValue < 200) {
     digitalWrite(12, HIGH);
     // If the sensor value is less than 100, it turns on the 12 pin, closing the transistor gate.
   }
