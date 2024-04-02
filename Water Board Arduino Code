@@ -12,12 +12,12 @@ void loop() {
   delay(1); 
   
   if (sensorValue < 200) {
-    digitalWrite(12, HIGH);
-    // If the sensor value is less than 100, it turns on the 12 pin, closing the transistor gate.
+    digitalWrite(12, LOW);
+    // If the sensor value is less than 200, it turns off the 12 pin, closing the transistor gate.
   }
   
   else {
-    digitalWrite(12, LOW);
-    // If the sensor value is above 100, it turns off the 12 pin, opening the transistor gate, allowing the LED to be turned on.
+    digitalWrite(12, HIGH);
+    // If the sensor value is above 200, it turns on the 12 pin, opening the transistor gate, allowing the LED to be turned on.
   }
 }
