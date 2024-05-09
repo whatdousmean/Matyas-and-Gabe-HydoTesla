@@ -1,23 +1,61 @@
+
+#include <Servo.h>
+// Imports the Servo library.
+Servo myservo;
+// Creates the myservo variable.
 void setup() {
   Serial.begin(9600);
   pinMode(12, OUTPUT);
   // Sets the 12 pin to an output pin.
+  pinMode(11, OUTPUT);
+  // Sets the 11 pin to an output pin.
+  pinMode(10,OUTPUT);
+  // Sets the 10 pin to an output pin.
+  pinMode(9, OUTPUT);
+  // Sets the 9 pin to an output pin.
+  myservo.attach(3);
+  // Links the 3 pin to the servo.
 }
 
 void loop() {
   int sensorValue = analogRead(A0);
+  int photo1Value = analogRead(A1);
+  int photo2Value = analogRead(A2);
   // Get a value from tbe water board
-  Serial.println(sensorValue);
+  Serial.println(photo1Value);
   // Prints the sensor value
-  delay(1); 
+  delay(1);
+  // Provides a slight delay for the sensor value prints.
   
-  if (sensorValue < 200) {
-    digitalWrite(12, HIGH);
-    // If the sensor value is less than 200, it turns on the 12 pin, closing the transistor gate.
+  if (sensorValue < 150) {
+    digitalWrite(12, LOW);
+    digitalWrite(9, LOW);
+    // If the sensor value is less than 150, it turns off the 12 pin, closing the transistor gate. The 9 pin is turned off, turning off the "on" indicator.
   }
   
   else {
-    digitalWrite(12, LOW);
-    // If the sensor value is above 200, it turns off the 12 pin, opening the transistor gate, allowing the motor to be turned on.
+    digitalWrite(12, HIGH);
+    digitalWrite(9, HIGH);
+    // If the sensor value is above 150, it turns on the 12 pin, opening the transistor gate, allowing the motor to be turned on. The 9 pin is turned on, turning on the "on" indicator.
+      if (photo1Value > photo2Value) {
+        if (photo1Value > 150) {
+        myservo.write(60);
+        }
+        else {
+          myservo.write(90);
+        }
+      }
+      else if (photo1Value < photo2Value) {
+        if (photo2Value > 150) {
+        myservo.write(120);
+        }
+        else {
+          myservo.write(90);
+        }
+      }
+      else {
+        myservo.write(90);
+      }
   }
 }
+
