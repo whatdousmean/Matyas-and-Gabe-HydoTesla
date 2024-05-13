@@ -21,9 +21,9 @@ void loop() {
   int sensorValue = analogRead(A0);
   int photo1Value = analogRead(A1);
   int photo2Value = analogRead(A2);
-  // Get a value from tbe water board
+  // Get a value from the water board and both photoresistors.
   Serial.println(photo1Value);
-  // Prints the sensor value
+  // Prints the sensor value.
   delay(1);
   // Provides a slight delay for the sensor value prints.
   
@@ -38,24 +38,27 @@ void loop() {
     digitalWrite(9, HIGH);
     // If the sensor value is above 150, it turns on the 12 pin, opening the transistor gate, allowing the motor to be turned on. The 9 pin is turned on, turning on the "on" indicator.
       if (photo1Value > photo2Value) {
-        if (photo1Value > 150) {
-        myservo.write(60);
+        if (photo1Value > 90) {
+        myservo.write(57.5);
         }
         else {
           myservo.write(90);
         }
+        // If the first photoresistor's value is more than the other, and above 90, the servo turns to 57.5 degrees. Otherwise, it stays at 90 degrees.
       }
       else if (photo1Value < photo2Value) {
-        if (photo2Value > 150) {
-        myservo.write(120);
+        if (photo2Value > 90) {
+        myservo.write(122.5);
         }
         else {
           myservo.write(90);
         }
+        // If the second photoresistor's value is more than the other, and above 90, the servo turns to 122.5 degrees. Otherwise, it stays at 90 degrees.
       }
       else {
         myservo.write(90);
       }
+       // Otherwise, the servo stays at 90 degrees. (Catches if anything falls through).
   }
 }
 
