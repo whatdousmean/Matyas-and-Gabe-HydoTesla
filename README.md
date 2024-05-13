@@ -1,4 +1,4 @@
-                                HYDRO TESLA - Gabe Syring, Matyas Velgersdyk - 5/15/2024
+                                HYDROTESLA - Gabe Syring, Matyas Velgersdyk - 5/15/2024
 This is a project created by Gabe S and Matyas V. We call it HydroTesla. This will be a car that relies on water to move. We are using a water board sensor, which generates voltage when it touches water, to turn on a larger voltage supply going to the motor. 
 This will be done through a mosfet gateway. Our code will be through an arduino uno. The larger power supply will power a motor that is connected to our back axel via a gear shaft. This car features headlights at the front that use photoresistors to determine the direction
 of the car. It has a front turning mechanism that is controlled by a servo.
