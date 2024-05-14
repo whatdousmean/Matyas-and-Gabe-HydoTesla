@@ -36,23 +36,30 @@ When the water board is activated by water, the 9 pin is turned on. This is conn
 
 # Design Evaluation
   ## Output Display 
-  LED on top of the car showing on/off
+  We used a singular green LED on the top of the car to show if it was on or off. It is powered by the 9 pin, which is turned on when the water board is dipped in water.
   ## Manual User Input 
-  Photoresistor headlights. User shines light at the headlights and the car responds by turning in the direction of the light.
+  Our manual user input is in the form of our photoresistor headlights. The user shines a light at either of the headlights, and the car will turn towards the light.
   ## Automatic Sensor 
-  Water board automatically senses if there is water or not. If there is, the motor is turned on and the car goes. If not, the car is stationary.
+  Our water board automatically senses if there is water on it or not. If there is, the water board will activate our 12 volt motor and green LED. If not, the car will remain stationary and the LED will be off.
   ## Actuators 
-  Servo, 12 Volt DC Motor
+  We used two different actuators, our servo, which activated our front steering, and a 12 volt motor, which powered the back axel to spin, and thus, the car to move.
   ## Mechanisms 
-  Gear Shaft Mechanism, Servo connection to front axel for steering
+  Our two main mechanisms were our gear shaft that connected our motor to the back axel, and the servo's connection to the front axel to determine steering.
   ## Hardware 
-  Arduino, plywood, screws, bolts, axels, wheels, motor, servo, tupperware, wires, CUSTOM 3D PRINTED MOTOR HOLDER
-  ## Logic 
+  We had lots of different hardware, so here are all of the items: Arduino uno, plywood, screws, bolts, axels, wheels, motor, servo, tupperware, wires, CUSTOM 3D PRINTED MOTOR HOLDER, resistors, photoresistors, mosfet, LED, water board, breadboard
+  ## Logic, Processing, and Control
   Our full Arduino Uno code can be found here:
   
   https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/blob/e636a06a375cc82a635ebf0bc8ff4fe23f6c6746/Water%20Board%20Arduino%20Code
-  ## Processing 
-  Arduino board takes in analogRead numbers from photoresistor headlights and water board.
-  ## Control 
-  Arduino controls the servo, LED, and motor based off of the analogRead numbers
+
+  Our arduino uno was the main part of this entire project. It enabled everything, the water board, motor, photoresistors, servo, and more to work together. It is important to note that we imported the Servo library into our code in order to be able to use our servo properly. This line where we import the Servo library is on line 2 of our code. 
+
+  ## Other Adjustments
+  We did not have very many adjustments to our final plan, just two main ones:
+
+  1) Originally, we had planned to add another photoresistor to determine speed. Unfortunately, we had to cancel this plan due to already low speeds and high resistance from the photoresistor.
+  2) While this may not be a real "adjustment" this is important. We designed a custom motor holder that we installed underneath the car. This holds our motor steady and in place. The link to the stl file of this can be found here:
+
+     insert link
+
   
