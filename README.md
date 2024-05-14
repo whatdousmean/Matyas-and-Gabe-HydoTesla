@@ -17,6 +17,7 @@ This is a car that is powered by a 12 volt battery. The battery current flows th
 1) The motor must be running (The water board must be in water).
 2) The analogRead value returned by one photoresistor circuit must be higher than the other.
 3) The value must be higher than 150.
+
 If all of these requirements are met, the servo will turn to either 57.5 or 122.5 degrees. This is determined by if the photoresistor is on the left or right. Otherwise, the servo remains at 90 degrees, allowing for the car to be straight. Finally, when the water board is active, it also activates the 9 pin on the arduino, turning on a green LED on the top of the car. This is just a signal showing that the car is on.
 
 # System Details
