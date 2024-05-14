@@ -29,6 +29,8 @@ The main circuit features a mosfet gateway that is activated from pin 12. Pin 12
 Our water board is attached to the A0 pin. This pin gets a value from the water board through the analogRead() function. If the analogRead value is over 150, it activates the 12 pin, turning on the mosfet gateway. This allows the circuit to be completed, and the motor to move. The motor makes the car move because it is connected to the back axel via a gear system.
 ## Photoresistor Headlights
 Our photoresistor headlights have a voltage divider on the back end of them. This splits the voltage to ground and to an analogRead() pin (Pins A1 and A2). If either these values are above 150, the 3 pin will activate using the myservo.write() function, turning the servo to the desired degree. 
+## Servo System
+Once the 3 pin sends the servo a signa through the myservo.write() function, the servo turns to the desired degree. (For our project those degrees are 90, 57.5, and 122.5).
 ## LED Circuit
 When the water board is activated by water, the 9 pin is turned on. This is connected to a simple LED circuit. It's only purpose is to be an on/off indicator.
 ## Wiring Diagram
