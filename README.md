@@ -81,15 +81,15 @@ Our main lesson that we learned is to be calm. At many points, we got very frust
 Throughout this project, we learned that planning how to use your time is very important. Time flies when you are so focused on something. The class periods went by a lot faster than we expected.
 
 # Parts List
--Wheels: 8.99 LINK
+-Wheels: 8.99 https://www.amazon.com/Electric-Geared-Magnetic-Gearbox-Plastic/dp/B098PZF2DV/ref=sr_1_35?crid=2EX4VLOOX9ZS1&dib=eyJ2IjoiMSJ9.QyNo_q32Tb5r0dJjOPnSxBZr4yA-B5iu3OLGnrt55-NtK0fSX2xsWF0SIiKr9BteU9lhkEpoJUbyJA6mTq9xJom_y_ZfmbW2l-aCfV-bfdcfuozrW4GbZy2iNj6dsrnMGohfvct19fdgS_4q4sBj_5His3QXNjMObXypGrpzfOr-ciKmTmgQ3SHNNUW0_7R_mTHN0B5D7dOXr0FEIe8-oeWTB8BXjX0G-aqSa6OY2ftj2PUJBBzLYk0FmMbtB36QC0pLump2k7H2kwUVN1D_oop1ZNCCQrIVPOGMCrVZ29A.mQP96o5QqT9otElbv6JFUxQx5Nv1aVHpL-fQXE19-dw&dib_tag=se&keywords=3+robot+car+wheels&qid=1715630647&sprefix=3+robot+car+wheels%2Caps%2C152&sr=8-35
 
--Tupperware: 4.99 LINK
+-Tupperware: 4.99 https://www.amazon.com/GladWare-Everyday-Rectangle-Storage-Containers/dp/B0085UK4GW/ref=sr_1_2?crid=KFULQCQ8D44N&dib=eyJ2IjoiMSJ9.qniL6n_WpV07Ntr_aKAR3SbwgNJrouvW0urSOjySUg88YMwmjzenWX7w4vuhvvSifPcTPkVxM3uzMr0NI9OsxzPInJpWdJ6hzs5x7DBUVh-GCZ6G4F4CH3EGrbz0MOgHROvs3Er0VdBKZaMj53bYJUIKThW896W60Ay1vVC57qhHQ9l2iggkhqNKi83YwSbS-zSo0niFttbh1K8n46KPdIMPd3aWqs3ILa_CtIq7U7MZVZeyjwJFdHgg6EMchmmiT64eoYqecJygG940isFpI4qq4j0-gVY1eXcFWmKNk9g.7IbXckfI7hkQRKR4os2Dfjf2mO1mmd-_yBTUc1No0Oc&dib_tag=se&keywords=small%2Bplastic%2Brectangular%2Btupperware%2Bcontainers&qid=1715630928&sprefix=small%2Bplastic%2Brectangular%2Btupperware%2Bcontainers%2Caps%2C173&sr=8-2&th=1
 
 -Nuts, Bolts, Washers and Axel : Aprox. 17.50 (Tax Included) at Ace
 
 -Plywood: 10.00
 
--Motor: 14.99 LINK
+-Motor: 14.99 https://www.amazon.com/Greartisan-Electric-Reduction-Centric-Diameter/dp/B07K9KPDNV/ref=sr_1_37?crid=2L68TUI7OPKDJ&dib=eyJ2IjoiMSJ9.shxNoP6K5tB_7COt6jYSGBLCRiCXxoHEG93gGNCuwFTQ_180RWadObOSBDDb4qDwpQVZ-0hcE1qTjMCiGYU3ATVRA0LUq_y1n-99t9j5PQSsraSBjutjXswp7IklgVY_W5ROXAmGZrvo8ohmerzVQw6m92hddUPSXtnZxMFXjCA6fc-030nQsKQ2gxuTb8GrE0YdNc2wUCQKWsKGzpDoX85UYZ0dHJ4fBedBZCFEeb58A2316nnHKjkX-ASzKATBzCQMTVAaBg5nZ2LKRwaI1lYk9YpJDu2wKNzqUpE97Dc.vlYfL5pdRIgY8L57MlkP_6oJubZeUaeSgdR1S4Nj0sQ&dib_tag=se&keywords=electric%2Bmotor&qid=1709584829&sprefix=electric%2Bmotor%2Caps%2C219&sr=8-37&th=1
 
 -Arduino: 15.00
 
