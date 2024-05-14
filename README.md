@@ -85,18 +85,24 @@ Throughout this project, we learned that planning how to use your time is very i
 
 -Tupperware: 4.99 https://www.amazon.com/GladWare-Everyday-Rectangle-Storage-Containers/dp/B0085UK4GW/ref=sr_1_2?crid=KFULQCQ8D44N&dib=eyJ2IjoiMSJ9.qniL6n_WpV07Ntr_aKAR3SbwgNJrouvW0urSOjySUg88YMwmjzenWX7w4vuhvvSifPcTPkVxM3uzMr0NI9OsxzPInJpWdJ6hzs5x7DBUVh-GCZ6G4F4CH3EGrbz0MOgHROvs3Er0VdBKZaMj53bYJUIKThW896W60Ay1vVC57qhHQ9l2iggkhqNKi83YwSbS-zSo0niFttbh1K8n46KPdIMPd3aWqs3ILa_CtIq7U7MZVZeyjwJFdHgg6EMchmmiT64eoYqecJygG940isFpI4qq4j0-gVY1eXcFWmKNk9g.7IbXckfI7hkQRKR4os2Dfjf2mO1mmd-_yBTUc1No0Oc&dib_tag=se&keywords=small%2Bplastic%2Brectangular%2Btupperware%2Bcontainers&qid=1715630928&sprefix=small%2Bplastic%2Brectangular%2Btupperware%2Bcontainers%2Caps%2C173&sr=8-2&th=1
 
--Nuts, Bolts, Washers and Axel : Aprox. 17.50 (Tax Included) at Ace
+-Nuts, Bolts(1/4 inch diameter, 2.5 inch length, 13 count), Washers and Axel : Aprox. 17.50 (Tax Included) at Ace
 
 -Plywood: 10.00
 
--Motor: 14.99 https://www.amazon.com/Greartisan-Electric-Reduction-Centric-Diameter/dp/B07K9KPDNV/ref=sr_1_37?crid=2L68TUI7OPKDJ&dib=eyJ2IjoiMSJ9.shxNoP6K5tB_7COt6jYSGBLCRiCXxoHEG93gGNCuwFTQ_180RWadObOSBDDb4qDwpQVZ-0hcE1qTjMCiGYU3ATVRA0LUq_y1n-99t9j5PQSsraSBjutjXswp7IklgVY_W5ROXAmGZrvo8ohmerzVQw6m92hddUPSXtnZxMFXjCA6fc-030nQsKQ2gxuTb8GrE0YdNc2wUCQKWsKGzpDoX85UYZ0dHJ4fBedBZCFEeb58A2316nnHKjkX-ASzKATBzCQMTVAaBg5nZ2LKRwaI1lYk9YpJDu2wKNzqUpE97Dc.vlYfL5pdRIgY8L57MlkP_6oJubZeUaeSgdR1S4Nj0sQ&dib_tag=se&keywords=electric%2Bmotor&qid=1709584829&sprefix=electric%2Bmotor%2Caps%2C219&sr=8-37&th=1
+-12 Volt Motor: 14.99 https://www.amazon.com/Greartisan-Electric-Reduction-Centric-Diameter/dp/B07K9KPDNV/ref=sr_1_37?crid=2L68TUI7OPKDJ&dib=eyJ2IjoiMSJ9.shxNoP6K5tB_7COt6jYSGBLCRiCXxoHEG93gGNCuwFTQ_180RWadObOSBDDb4qDwpQVZ-0hcE1qTjMCiGYU3ATVRA0LUq_y1n-99t9j5PQSsraSBjutjXswp7IklgVY_W5ROXAmGZrvo8ohmerzVQw6m92hddUPSXtnZxMFXjCA6fc-030nQsKQ2gxuTb8GrE0YdNc2wUCQKWsKGzpDoX85UYZ0dHJ4fBedBZCFEeb58A2316nnHKjkX-ASzKATBzCQMTVAaBg5nZ2LKRwaI1lYk9YpJDu2wKNzqUpE97Dc.vlYfL5pdRIgY8L57MlkP_6oJubZeUaeSgdR1S4Nj0sQ&dib_tag=se&keywords=electric%2Bmotor&qid=1709584829&sprefix=electric%2Bmotor%2Caps%2C219&sr=8-37&th=1
 
 -Arduino: 15.00
 
 -General Electronics(including Servo): Aprox. 20.00
 
--3d Prints: Motor Casing ( grams) Beveled Gears ( grams)
+-3d Prints: Motor Casing (50 grams) Beveled Gears (29 grams)
 
 # Assembly Instructions
+## Chassis (Main Body)
+Before the chassis was constructed, it was planned out on a 3d modeling software used by Geomatic Engineers, colloquially called Surveyors, known as Autodesk Civil 3d. The chassis was modeled after a Ford F150 outline from the top, and although plans were made to make layers to build out the full body shape of the Ford truck, that was never done as it would have taken far too long. Instead, 2 layers, identical for the most part excluding some minor changes surrounding the front wheel wells, and the motor-casing attachment point and cutout. 
+
+After the chassis was designed, it was printed full-scale onto a sheet of paper, and traced onto a sheet of plywood. It was then cut out, excluding the cutouts for the motor casing and the water tank(tupperware container) making use of a scroll saw. After that was done, holes were drilled for support posts between the two chassis layers (the bolts), and the first assembly was done. These bolts at the time were 1.5 inches in length, but after being discovered to be too short later on, they were changed to be 2.5 inches long. In any case, once this was done, focus switched to the steering mechanism and the back axel. 
+	
+The steering mechanism is made up of very small cutouts of plexiglass spanning across two free-spinning armistices holding the wheels onto a fixed point, which will be explained in more depth during the presentation. These are then connected to a servo using more free spinning attachment points, to enable easy rotation, and precise control. This was made using the scroll saw and the drill press over the course of a couple of class periods, and was swiftly assembled. The rear axle was much simpler, only making use of 1 beveled gear(3d printed, model lifted from a beveled gear found in the lab) that interfaces with one attached to the motor, a dowel rod, and two wheels,  as well as two pillow blocks to keep the axle in place. WD40 was used to  lubricate the pillow blocks to reduce friction on them, but that was all. After this, the cutouts in the chassis were made using the drill press and chisels, and the motor casing and water tank were then attached, leaving one final step, which was to insert the electronic components, thus completing the build process. A more detailed breakdown of the dividual parts will take place during the presentation.
 
   
