@@ -52,7 +52,7 @@ When the water board is activated by water, the 9 pin is turned on. This is conn
   ## Hardware 
   We had lots of different hardware, so here are all of the items: Arduino uno, plywood, screws, bolts, axels, wheels, motor, servo, tupperware, wires, CUSTOM 3D PRINTED MOTOR HOLDER, resistors, photoresistors, mosfet, LED, water board, breadboard, CUSTOM PRINTED GEARS
 
-  Link to gear STL file: 
+  Link to gear STL file: https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/blob/ece42019ce43cfadcfe1f235608ce2f768c4addd/Main%20Gear.stl
   ## Logic, Processing, and Control
   Our full Arduino Uno code can be found here:
   
