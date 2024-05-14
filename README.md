@@ -81,6 +81,21 @@ Our main lesson that we learned is to be calm. At many points, we got very frust
 Throughout this project, we learned that planning how to use your time is very important. Time flies when you are so focused on something. The class periods went by a lot faster than we expected.
 
 # Parts List
+-Wheels: 8.99 LINK
+
+-Tupperware: 4.99 LINK
+
+-Nuts, Bolts, Washers and Axel : Aprox. 17.50 (Tax Included) at Ace
+
+-Plywood: 10.00
+
+-Motor: 14.99 LINK
+
+-Arduino: 15.00
+
+-General Electronics(including Servo): Aprox. 20.00
+
+-3d Prints: Motor Casing ( grams) Beveled Gears ( grams)
 
 # Assembly Instructions
 
