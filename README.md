@@ -1,15 +1,15 @@
 # HydroTesla - Gabe Syring and Matyas Velgersdyk - May 15, 2024
-Figure 1
+Figure 1 - Final Product
 ![IMG_5241](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/b9e69c82-e9d5-4cff-80aa-5952a6ff592d)
-Figure 2
+Figure 2 - Water Board
 ![WaterBoard](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/bc03661d-4047-47e4-8a66-93835cf0833f)
-Figure 3
+Figure 3 - Main Circuit
 ![MainCircuit](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/8798b343-7cd8-4ad8-b4d7-1bc820f9bf86)
-Figure 4
+Figure 4 - Photoresistor Headlights
 ![Headlights](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/af2474e2-ecc5-4e60-a223-979f37a226f8)
-Figure 5
+Figure 5 - Full Circuit (Main, photoresistors, and LED circuit all combined)
 ![FullCircuit](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/137b6068-840f-49b9-bed1-4b703bb3d5b0)
-Figure 6
+Figure 6 - Back axel connected to gear shaft and motor
 ![BackAxel](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/ebf99a09-a12d-4d8c-b8da-a3308f73a85e)
 
 # Design Summary
