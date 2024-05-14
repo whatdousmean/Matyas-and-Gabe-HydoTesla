@@ -12,13 +12,22 @@ This is a car that is powered by a 12 volt battery. The battery current flows th
 Our main circuit is what turns on our motor. Our water board is attached to the A0 pin, which gets a value from it through analogRead(). If this number is over 150, it activates the 12 pin, which turns on the mosfet gateway. This completes the 12 volt circuit, allowing the motor to run and the back axel to spin. Our photoresistor headlights have a voltage divider on the back end of them. This splits the voltage to ground and to an analogRead() pin. If these values are above 150, the 3 pin will activate using the myservo.write() function, turning the servo to the desired degree. Lastly, when the water board is activated by water, the 9 pin is turned on. This is connected to a simple LED circuit. It's only purpose is to be an on/off indicator.
 
 # Design Evaluation
-  ## Output Display - LED on top of the car showing on/off
-  Manual User Input - Photoresistor headlights. User shines light at the headlights and the car responds by turning in the direction of the light.
-  Automatic Sensor - Water board automatically senses if there is water or not. If there is, the motor is turned on and the car goes. If not, the car is stationary.
-  Actuators - Servo, 12 Volt DC Motor
-  Mechanisms - Gear Shaft Mechanism, Servo connection to front axel for steering
-  Hardware - Arduino, plywood, screws, bolts, axels, wheels, motor, servo, tupperware, wires, CUSTOM 3D PRINTED MOTOR HOLDER
-  Logic - Arduino code
-  Processing - Arduino board takes in analogRead numbers from photoresistor headlights and water board.
-  Control - Arduino controls the servo, LED, and motor based off of the analogRead numbers
+  ## Output Display 
+  LED on top of the car showing on/off
+  ## Manual User Input 
+  Photoresistor headlights. User shines light at the headlights and the car responds by turning in the direction of the light.
+  ## Automatic Sensor 
+  Water board automatically senses if there is water or not. If there is, the motor is turned on and the car goes. If not, the car is stationary.
+  ## Actuators 
+  Servo, 12 Volt DC Motor
+  ## Mechanisms 
+  Gear Shaft Mechanism, Servo connection to front axel for steering
+  ## Hardware 
+  Arduino, plywood, screws, bolts, axels, wheels, motor, servo, tupperware, wires, CUSTOM 3D PRINTED MOTOR HOLDER
+  ## Logic 
+  Arduino code
+  ## Processing 
+  Arduino board takes in analogRead numbers from photoresistor headlights and water board.
+  ## Control 
+  Arduino controls the servo, LED, and motor based off of the analogRead numbers
   
