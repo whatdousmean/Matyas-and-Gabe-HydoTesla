@@ -104,8 +104,17 @@ Throughout this project, we learned that planning how to use your time is very i
 -3d Prints: Motor Casing (50 grams) Beveled Gears (29 grams)
 
 ### Total: $91.47
-
+## Other Parts
+- Wires
+- 3D Printer
+- Arduino app
+- Connection coords
 # Assembly Instructions
+If you want to build this, follow these instructions!
+## Electronics
+The electronic and coding portions of this project are very complicated. Start by copying our code (In logic, processing, and control) over to your arduino script. Also make sure you have all the materials listed. You will need many male to male and male to female wires for this. 
+### Circuits
+In **Figure 7**, you can see all of the circuit's wiring. Start by building all of these circuits. Put the main circuit on a big breadboard, and the other 3 on mini breadboards. The servo and waterboard do not need a breadboard, you can directly connect them. Make sure to not take off the bottom stickers to these breadboards yet. Throughout building these parts, make sure you are testing voltage and amperage levels with a multimeter. All of this, including the arduino should be powered by the 12 volt battery. Tip: Connect the main power from the battery to the + strip on the main breadboard. From there, power the arduino and the rest of the circuits from the arduino. You will most likely need an arduino shield to have enough ports.
 ## Chassis (Main Body)
 Before the chassis was constructed, it was planned out on a 3d modeling software used by Geomatic Engineers, colloquially called Surveyors, known as Autodesk Civil 3d. The chassis was modeled after a Ford F150 outline from the top, and although plans were made to make layers to build out the full body shape of the Ford truck, that was never done as it would have taken far too long. Instead, 2 layers, identical for the most part excluding some minor changes surrounding the front wheel wells, and the motor-casing attachment point and cutout. 
 
