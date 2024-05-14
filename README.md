@@ -50,7 +50,9 @@ When the water board is activated by water, the 9 pin is turned on. This is conn
   ## Mechanisms 
   Our two main mechanisms were our gear shaft that connected our motor to the back axel, and the servo's connection to the front axel to determine steering.
   ## Hardware 
-  We had lots of different hardware, so here are all of the items: Arduino uno, plywood, screws, bolts, axels, wheels, motor, servo, tupperware, wires, CUSTOM 3D PRINTED MOTOR HOLDER, resistors, photoresistors, mosfet, LED, water board, breadboard
+  We had lots of different hardware, so here are all of the items: Arduino uno, plywood, screws, bolts, axels, wheels, motor, servo, tupperware, wires, CUSTOM 3D PRINTED MOTOR HOLDER, resistors, photoresistors, mosfet, LED, water board, breadboard, CUSTOM PRINTED GEARS
+
+  Link to gear STL file: 
   ## Logic, Processing, and Control
   Our full Arduino Uno code can be found here:
   
