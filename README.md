@@ -74,4 +74,14 @@ We put numerous out of class hours into this project, and worked down to the ver
 
 Our cost is below $100. We think we will get the extra points for this as well.
 
+# Lessons Learned
+
+Our main lesson that we learned is to be calm. At many points, we got very frustrated. This hindered our work time usage, mood, and overall production. We had many issues building our circuits and getting everything to work together. In the end, staying calm and trying new methods is what enabled us to finish on time. 
+
+Throughout this project, we learned that planning how to use your time is very important. Time flies when you are so focused on something. The class periods went by a lot faster than we expected.
+
+# Parts List
+
+# Assembly Instructions
+
   
