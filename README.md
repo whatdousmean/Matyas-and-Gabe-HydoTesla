@@ -48,7 +48,8 @@ When the water board is activated by water, the 9 pin is turned on. This is conn
   ## Hardware 
   Arduino, plywood, screws, bolts, axels, wheels, motor, servo, tupperware, wires, CUSTOM 3D PRINTED MOTOR HOLDER
   ## Logic 
-  Arduino code
+  Our full Arduino Uno code can be found here:
+  Water Board Arduino Code
   ## Processing 
   Arduino board takes in analogRead numbers from photoresistor headlights and water board.
   ## Control 
