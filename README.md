@@ -62,4 +62,16 @@ When the water board is activated by water, the 9 pin is turned on. This is conn
      
      https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/blob/3997745cd45f1ab076b2cb9a97db56c113268df8/Custom_Motor_Holder.stl
 
+## Construction, Quality, Aesthetics, and Visual Appeal
+
+We worked down to the last minute on this project, and unfortunately did not have time to make it look very nice.
+
+## Level of Effort
+
+We put numerous out of class hours into this project, and worked down to the very last minute on it. We think we will get extra points for this.
+
+## Cost
+
+Our cost is below $100. We think we will get the extra points for this as well.
+
   
