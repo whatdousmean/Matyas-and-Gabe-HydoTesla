@@ -32,7 +32,7 @@ Our motor is powered through our main circuit once the mosfet gateway is activat
 ## Photoresistor Headlights
 Our photoresistor headlights have a voltage divider on the back end of them. This splits the voltage to ground and to an analogRead() pin (Pins A1 and A2). If either these values are above 150, the 3 pin will activate using the myservo.write() function, turning the servo to the desired degree. A picture of the headlights can be found in **Figure 4**.
 ## Servo System
-Once the 3 pin sends the servo a signa through the myservo.write() function, the servo turns to the desired degree. (For our project those degrees are 90, 57.5, and 122.5).
+Once the 3 pin sends the servo a signal through the myservo.write() function, the servo turns to the desired degree. (For our project those degrees are 90, 57.5, and 122.5).
 ## LED Circuit
 When the water board is activated by water, the 9 pin is turned on. This is connected to a simple LED circuit. It's only purpose is to be an on/off indicator.
 ## Wiring Diagram
