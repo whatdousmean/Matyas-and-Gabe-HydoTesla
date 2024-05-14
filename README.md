@@ -59,6 +59,7 @@ When the water board is activated by water, the 9 pin is turned on. This is conn
 
   1) Originally, we had planned to add another photoresistor to determine speed. Unfortunately, we had to cancel this plan due to already low speeds and high resistance from the photoresistor.
   2) While this may not be a real "adjustment" this is important. We designed a custom motor holder that we installed underneath the car. This holds our motor steady and in place. The link to the stl file of this can be found here:
+     
      https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/blob/a810fd05b89c363d432620381ce7520ac8cec96d/Motor%20Holder.stl
 
   
