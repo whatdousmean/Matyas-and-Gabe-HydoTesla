@@ -133,37 +133,37 @@ Biggest Suggestion: Plan out your class periods, when you expect to have certain
 - Arduino app
 - Connection cords
 - Electical tape
+  
 # Assembly Instructions
 If you want to build this, follow these instructions!
 ## Electronics
 The electronic and coding portions of this project are very complicated. Start by copying our code (In logic, processing, and control) over to your arduino script. Also make sure you have all the materials listed. You will need many male to male and male to female wires for this. 
+
 ### Circuits
 In **Figure 7**, you can see all of the circuit's wiring. Start by building all of these circuits. Put the main circuit on a big breadboard, and the other 3 on mini breadboards. The servo and waterboard do not need a breadboard, you can directly connect them. Make sure to not take off the bottom stickers to these breadboards yet. Throughout building these parts, make sure you are testing voltage and amperage levels with a multimeter. All of this, including the arduino should be powered by the 12 volt battery. Tip: Connect the main power from the battery to the + strip on the main breadboard. From there, power the arduino and the rest of the circuits from the arduino. You will most likely need an arduino shield to have enough ports. A picture of our final circuit can be found in **Figure 5**.
+
 ## 3D Printed Parts
 We used OnShape to print our **3** custom parts. Download our STL files above and 3D Print these parts. (You will need to print two of the gears).
-## Chassis (Main Body)
+
+## Chassis (Main Body), Servo, and Axels
 Before the chassis was constructed, it was planned out on a 3d modeling software used by Geomatic Engineers, colloquially called Surveyors, known as Autodesk Civil 3d. The chassis was modeled after a Ford F150 outline from the top, and although plans were made to make layers to build out the full body shape of the Ford truck, that was never done as it would have taken far too long. Instead, 2 layers, identical for the most part excluding some minor changes surrounding the front wheel wells, and the motor-casing attachment point and cutout. 
 
 After the chassis was designed, it was printed full-scale onto a sheet of paper, and traced onto a sheet of plywood. It was then cut out, excluding the cutouts for the motor casing and the water tank(tupperware container) making use of a scroll saw. After that was done, holes were drilled for support posts between the two chassis layers (the bolts), and the first assembly was done. These bolts at the time were 1.5 inches in length, but after being discovered to be too short later on, they were changed to be 2.5 inches long. In any case, once this was done, focus switched to the steering mechanism and the back axel. 
 	
-The steering mechanism is made up of very small cutouts of plexiglass spanning across two free-spinning armistices holding the wheels onto a fixed point, which will be explained in more depth during the presentation. These are then connected to a servo using more free spinning attachment points, to enable easy rotation, and precise control. This was made using the scroll saw and the drill press over the course of a couple of class periods, and was swiftly assembled. The rear axle was much simpler, only making use of 1 beveled gear(3d printed, model lifted from a beveled gear found in the lab) that interfaces with one attached to the motor, a dowel rod, and two wheels,  as well as two pillow blocks to keep the axle in place. WD40 was used to  lubricate the pillow blocks to reduce friction on them, but that was all. After this, the cutouts in the chassis were made using the drill press and chisels, and the motor casing and water tank were then attached, leaving one final step, which was to insert the electronic components, thus completing the build process. A more detailed breakdown of the individual parts will take place during the presentation.
+The steering mechanism is made up of two thin cutouts of plexiglass spanning across two free-spinning armistices(a y-shaped aluminum object with a bearing) holding the wheels onto a fixed point, which will be explained in more depth during the presentation. These are then connected to a servo using more free spinning attachment points, to enable easy rotation, and precise control. This was made using the scroll saw and the drill press over the course of a couple of class periods, and was swiftly assembled. The rear axle was much simpler, only making use of 1 beveled gear(3d printed, model lifted from a beveled gear found in the lab) that interfaces with one attached to the motor, a dowel rod, and two wheels,  as well as two pillow blocks to keep the axle in place. To attach the wheels to the axel, the gear was first slid onto the dowel rod after which point I stuck the axel into a hole in each wheel, which will be shown during the presentation. The aforementioned pillow blocks are sat upon a significantly raised portion of plywood, which is made by tracing the outline of the bottom of the pillow block onto a plywood sheet 4 times, and cutting these out. Then, stack them on top of one another and drive a screw through the pillow block and the stack of plywood, and then into the chassis. It’s recommended to use screws that are fairly short, as cutting them is a painful process.  WD40 was used to  lubricate the pillow blocks to reduce friction on them, but that was all. After this, the cutouts in the chassis were made using the drill press and chisels, and the motor casing and water tank were then attached, leaving one final step, which was to insert the electronic components, thus completing the build process. The motor was attached using a 3d printed casing, that was then nailed into the chassis, and held down using zip ties. The servo was affixed making use of wood screws going through two little wings on it’s sides and the chassis, holding it in place. Zip ties were added later to  add stability. 
 
 To build the chassis, take your plywood and form it to the specifications of the blueprint in Figure ?. This takes a while, but it will be worth it in the end. After you have your 2 pieces of wood, you can begin connecting them with the nuts, bolts, and columns as seen in **Figure 1** and on the blueprints. Throughout the rest of the assembly, you will be taking the two pieces apart and putting them together multiple times. A picture of the finished chassis can be found in **Figure 12**.
 
+A picture of the front axel can be found in **Figure 13**, and a picture of the installed servo can be found in **Figure 15**.
+
 ## Motor & Motor Holder
-At this point, you should have your custom printed motor holder. Take your actual motor and slide it in. After this, strip two wires and wrap it around the motor's positive and negative extensions. We used electrical tape to secure this. These two wires will link back into your circuit. Use zipties to secure the motor to the motor holder. This is shown in **Figure 14**.
+At this point, you should have your custom printed motor holder. Take your actual motor and slide it in. After this, strip two wires and wrap it around the motor's positive and negative extensions. We used electrical tape to secure this. These two wires will link back into your circuit. Use zipties to secure the motor to the motor holder. After, the motor holder needs to be nailed to the bottom of the car in the position shown in the blueprint. This is shown in **Figure 14**.
 
 ## Tupperware
 This part is not complicated. Take the lid of your tupperware, and cut a slit in the middle of it big enough for the water board to fit in. In the end, your waterboard will slide into this.
 
-## Axels
-A picture of the front axel can be found in **Figure 13**.
-
 ## Gears
 For the gears, connect one to the back axel, and the other to the part of the motor that sticks out. Slide these around until they connect. After that, you can superglue them to the axel and motor. This will make your gear shaft.
-
-## Servo
-A picture of the installed servo can be found in **Figure 15**.
 
 ## Battery Pack
 Near the back of the chassis, you will find two small holes. These are designed to have zipties go through them. Take your two zipties, and tie down the motor here. Get yourself an anderson power pole connection for the connection into the breadboard. Pictures of this can be found in **Figures 9, 10, and 11**.
