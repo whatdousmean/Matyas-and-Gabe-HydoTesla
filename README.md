@@ -163,7 +163,7 @@ For the gears, connect one to the back axel, and the other to the part of the mo
 A picture of the installed servo can be found in **Figure 15**.
 
 ## Battery Pack
-Near the back of the chassis, you will find two small holes. These are designed to have zipties go through them. Take your two zipties, and tie down the motor here. Pictures of this can be found in **Figures 9, 10, and 11**.
+Near the back of the chassis, you will find two small holes. These are designed to have zipties go through them. Take your two zipties, and tie down the motor here. Get yourself an anderson power pole connection for the connection into the breadboard. Pictures of this can be found in **Figures 9, 10, and 11**.
 
 ## Final Assembly
 Now, it is time to combine everything. Take off the second piece of plywood, and install your circuit. This is where you take off the stickers of your breadboards. Your headlights go on the front of the car, your breadboard and arduino in between your tupperware and motor, and your LED and water board will go on top of the car on the second piece of plywood. These will connect to the arduino through the little holes for the wires as seen on the blueprint. Your servo will still be connected to the arduino, but it will be screwed in as stated above.
