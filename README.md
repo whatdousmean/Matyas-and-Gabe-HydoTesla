@@ -119,7 +119,7 @@ Throughout this project, we learned that planning how to use your time is very i
 
 -Arduino: 15.00
 
--General Electronics(Including Servo & Water Board): Aprox. 20.00
+-General Electronics(Including Servo, Water Board, and Battery): Aprox. 20.00
 	- 4 220 Ohm resistors, mosfet, diode, LED, breadboards
 
 -3d Prints: Motor Casing (50 grams) Beveled Gears (29 grams)
