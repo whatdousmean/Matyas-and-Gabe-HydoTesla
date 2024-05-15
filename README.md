@@ -129,7 +129,8 @@ Throughout this project, we learned that planning how to use your time is very i
 - Wires
 - 3D Printer
 - Arduino app
-- Connection coords
+- Connection cords
+- Electical tape
 # Assembly Instructions
 If you want to build this, follow these instructions!
 ## Electronics
