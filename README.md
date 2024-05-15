@@ -52,7 +52,9 @@ Our photoresistor headlights have a voltage divider on the back end of them. Thi
 ## Servo System
 Once the 3 pin sends the servo a signal through the myservo.write() function, the servo turns to the desired degree. (For our project those degrees are 90, 57.5, and 122.5).
 ## LED Circuit
-When the water board is activated by water, the 9 pin is turned on. This is connected to a simple LED circuit. It's only purpose is to be an on/off indicator.
+When the water board is activated by water, the 9 pin is turned on. This is connected to a simple LED circuit. It's only purpose is to be an on/off indicator. A picture of the LED circuit can be found in **Figure 8**.
+## Battery
+We used a 12 volt battery, found in the robotics lab. We used anderson power pole connectors to connect the battery to the circuit, and electical tape to secure the connection. Pictures of this can be found in **Figures 9, 10, and 11**.
 ## Wiring Diagram
 **A detailed schematic of our wiring systems can be found in Figure 7**
 
@@ -143,18 +145,23 @@ After the chassis was designed, it was printed full-scale onto a sheet of paper,
 	
 The steering mechanism is made up of very small cutouts of plexiglass spanning across two free-spinning armistices holding the wheels onto a fixed point, which will be explained in more depth during the presentation. These are then connected to a servo using more free spinning attachment points, to enable easy rotation, and precise control. This was made using the scroll saw and the drill press over the course of a couple of class periods, and was swiftly assembled. The rear axle was much simpler, only making use of 1 beveled gear(3d printed, model lifted from a beveled gear found in the lab) that interfaces with one attached to the motor, a dowel rod, and two wheels,  as well as two pillow blocks to keep the axle in place. WD40 was used to  lubricate the pillow blocks to reduce friction on them, but that was all. After this, the cutouts in the chassis were made using the drill press and chisels, and the motor casing and water tank were then attached, leaving one final step, which was to insert the electronic components, thus completing the build process. A more detailed breakdown of the dividual parts will take place during the presentation.
 
-To build the chassis, take your plywood and form it to the specifications of the blueprint in Figure ?. This takes a while, but it will be worth it in the end. After you have your 2 pieces of wood, you can begin connecting them with the nuts, bolts, and columns as seen in **Figure 1** and on the blueprints. Throughout the rest of the assembly, you will be taking the two pieces apart and putting them together multiple times. 
+To build the chassis, take your plywood and form it to the specifications of the blueprint in Figure ?. This takes a while, but it will be worth it in the end. After you have your 2 pieces of wood, you can begin connecting them with the nuts, bolts, and columns as seen in **Figure 1** and on the blueprints. Throughout the rest of the assembly, you will be taking the two pieces apart and putting them together multiple times. A picture of the finished chassis can be found in **Figure 12**.
+
+## Motor & Motor Holder
+At this point, you should have your custom printed motor holder. Take your actual motor and slide it in. After this, strip two wires and wrap it around the motor's positive and negative extensions. We used electrical tape to secure this. These two wires will link back into your circuit. Use zipties to secure the motor to the motor holder. This is shown in **Figure 14**.
 
 ## Tupperware
 This part is not complicated. Take the lid of your tupperware, and cut a slit in the middle of it big enough for the water board to fit in. In the end, your waterboard will slide into this.
 
 ## Axels
-
+**A picture of the front axel can be found in **Figure 13**.
 ## Motor Holder
 
 ## Gears
 For the gears, connect one to the back axel, and the other to the part of the motor that sticks out. Slide these around until they connect. After that, you can superglue them to the axel and motor. This will make your gear shaft.
+
 ## Servo
+A picture of the installed servo can be found in **Figure 15**.
 
 ## Final Assembly
 Now, it is time to combine everything. Take off the second piece of plywood, and install your circuit. This is where you take off the stickers of your breadboards. Your headlights go on the front of the car, your breadboard and arduino in between your tupperware and motor, and your LED and water board will go on top of the car on the second piece of plywood. These will connect to the arduino through the little holes for the wires as seen on the blueprint. Your servo will still be connected to the arduino, but it will be screwed in as stated above.
