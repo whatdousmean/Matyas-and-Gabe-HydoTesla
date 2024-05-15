@@ -13,6 +13,24 @@ Figure 6 - Back axel connected to gear shaft and motor
 ![BackAxel](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/ebf99a09-a12d-4d8c-b8da-a3308f73a85e)
 Figure 7 - Circuit Schematic
 ![CircuitSchem](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/16d6b388-4b68-4a00-ab5d-38f643cded5e)
+Figure 8 - LED Circuit
+![LED](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/a671e197-f456-4b10-8d88-73dca41c9150)
+Figure 9 - Battery
+![battery](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/e71bef56-d1d5-4ddf-980c-20203ddbf916)
+Figure 10 - Battery Plug
+![batteryconnect](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/16e3b7d4-8f09-44b0-ba98-589879899b92)
+Figure 11 - Battery Holder
+![batteryPlace](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/a3a51db9-cde7-4d45-a734-f9d9fb150f52)
+Figure 12 - Finished Chassis
+![chassis](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/562eb42f-b834-4e75-9e68-3b3e4e6cc009)
+Figure 13 - Front Axel
+![frontAxel](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/c7dd328a-bb87-4e0e-8135-541da75aa819)
+Figure 14 - Motor & Custom Motor Holder
+![motor](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/76cbae83-c900-4be0-bedf-2287d7f6c615)
+Figure 15 - Servo
+![servo](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/cb5ba651-d4d5-41d7-8939-864e1a6f43b8)
+
+
 
 # Design Summary
 This is a car that is powered by a 12 volt battery. The battery current flows through a mosfet gateway, that can be opened by the 12 pin on an arduino uno being powered. That 12 pin is powered when our water board is put into water, stored in a tupperware container near the center of the car. That water board sends a signal back to the A0 pin on the arduino. If that analogRead value is over 150, the 12 pin will be powered, allowing the circuit to be completed, powering our 12 volt motor. This motor is connected to a simple gear system near the back of the car that is also attached to our back axel. When the motor turns, so does the axel. At the front of the car, there are two "headlights". These "headlights" are mini photoresistor circuits. Both of these circuits are powered through 5 volt pins on the arduino, and they feature voltage dividers. These voltage dividers split the current to ground and an analog pin. These two pin values are read, and then transferred into a servo. This servo is connected to our specially designed front axel, capable of performing front-steering based off of the direction of the servo. The arduino is coded to specific standards with these photoresistors. The requirements for the servo to turn are as follows: 
