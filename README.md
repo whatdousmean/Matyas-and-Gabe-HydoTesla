@@ -106,6 +106,8 @@ Our main lesson that we learned is to be calm. At many points, we got very frust
 
 Throughout this project, we learned that planning how to use your time is very important. Time flies when you are so focused on something. The class periods went by a lot faster than we expected.
 
+Biggest Suggestion: Plan out your class periods, when you expect to have certain things done by, and stick too it. In February it seemed like we had all the time in the world. Time flies with this project. Stay calm when working, and don't give up.
+
 # Parts List
 -Wheels: 8.99 https://www.amazon.com/Electric-Geared-Magnetic-Gearbox-Plastic/dp/B098PZF2DV/ref=sr_1_35?crid=2EX4VLOOX9ZS1&dib=eyJ2IjoiMSJ9.QyNo_q32Tb5r0dJjOPnSxBZr4yA-B5iu3OLGnrt55-NtK0fSX2xsWF0SIiKr9BteU9lhkEpoJUbyJA6mTq9xJom_y_ZfmbW2l-aCfV-bfdcfuozrW4GbZy2iNj6dsrnMGohfvct19fdgS_4q4sBj_5His3QXNjMObXypGrpzfOr-ciKmTmgQ3SHNNUW0_7R_mTHN0B5D7dOXr0FEIe8-oeWTB8BXjX0G-aqSa6OY2ftj2PUJBBzLYk0FmMbtB36QC0pLump2k7H2kwUVN1D_oop1ZNCCQrIVPOGMCrVZ29A.mQP96o5QqT9otElbv6JFUxQx5Nv1aVHpL-fQXE19-dw&dib_tag=se&keywords=3+robot+car+wheels&qid=1715630647&sprefix=3+robot+car+wheels%2Caps%2C152&sr=8-35
 
