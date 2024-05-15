@@ -29,8 +29,8 @@ Figure 14 - Motor & Custom Motor Holder
 ![motor](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/76cbae83-c900-4be0-bedf-2287d7f6c615)
 Figure 15 - Servo
 ![servo](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/cb5ba651-d4d5-41d7-8939-864e1a6f43b8)
-
-
+Figure 16 - Blueprint
+![blueprint](https://github.com/whatdousmean/Matyas-and-Gabe-HydroTesla/assets/124313095/5617bddb-bc41-4944-9815-2f9573c52905)
 
 # Design Summary
 This is a car that is powered by a 12 volt battery. The battery current flows through a mosfet gateway, that can be opened by the 12 pin on an arduino uno being powered. That 12 pin is powered when our water board is put into water, stored in a tupperware container near the center of the car. That water board sends a signal back to the A0 pin on the arduino. If that analogRead value is over 150, the 12 pin will be powered, allowing the circuit to be completed, powering our 12 volt motor. This motor is connected to a simple gear system near the back of the car that is also attached to our back axel. When the motor turns, so does the axel. At the front of the car, there are two "headlights". These "headlights" are mini photoresistor circuits. Both of these circuits are powered through 5 volt pins on the arduino, and they feature voltage dividers. These voltage dividers split the current to ground and an analog pin. These two pin values are read, and then transferred into a servo. This servo is connected to our specially designed front axel, capable of performing front-steering based off of the direction of the servo. The arduino is coded to specific standards with these photoresistors. The requirements for the servo to turn are as follows: 
@@ -146,6 +146,9 @@ In **Figure 7**, you can see all of the circuit's wiring. Start by building all 
 We used OnShape to print our **3** custom parts. Download our STL files above and 3D Print these parts. (You will need to print two of the gears).
 
 ## Chassis (Main Body), Servo, and Axels
+
+### The chassis blueprints can be found in **Figure 16**.
+
 Before the chassis was constructed, it was planned out on a 3d modeling software used by Geomatic Engineers, colloquially called Surveyors, known as Autodesk Civil 3d. The chassis was modeled after a Ford F150 outline from the top, and although plans were made to make layers to build out the full body shape of the Ford truck, that was never done as it would have taken far too long. Instead, 2 layers, identical for the most part excluding some minor changes surrounding the front wheel wells, and the motor-casing attachment point and cutout. 
 
 After the chassis was designed, it was printed full-scale onto a sheet of paper, and traced onto a sheet of plywood. It was then cut out, excluding the cutouts for the motor casing and the water tank(tupperware container) making use of a scroll saw. After that was done, holes were drilled for support posts between the two chassis layers (the bolts), and the first assembly was done. These bolts at the time were 1.5 inches in length, but after being discovered to be too short later on, they were changed to be 2.5 inches long. In any case, once this was done, focus switched to the steering mechanism and the back axel. 
