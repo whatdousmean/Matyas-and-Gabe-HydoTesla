@@ -154,14 +154,16 @@ At this point, you should have your custom printed motor holder. Take your actua
 This part is not complicated. Take the lid of your tupperware, and cut a slit in the middle of it big enough for the water board to fit in. In the end, your waterboard will slide into this.
 
 ## Axels
-**A picture of the front axel can be found in **Figure 13**.
-## Motor Holder
+A picture of the front axel can be found in **Figure 13**.
 
 ## Gears
 For the gears, connect one to the back axel, and the other to the part of the motor that sticks out. Slide these around until they connect. After that, you can superglue them to the axel and motor. This will make your gear shaft.
 
 ## Servo
 A picture of the installed servo can be found in **Figure 15**.
+
+## Battery Pack
+Near the back of the chassis, you will find two small holes. These are designed to have zipties go through them. Take your two zipties, and tie down the motor here. Pictures of this can be found in **Figures 9, 10, and 11**.
 
 ## Final Assembly
 Now, it is time to combine everything. Take off the second piece of plywood, and install your circuit. This is where you take off the stickers of your breadboards. Your headlights go on the front of the car, your breadboard and arduino in between your tupperware and motor, and your LED and water board will go on top of the car on the second piece of plywood. These will connect to the arduino through the little holes for the wires as seen on the blueprint. Your servo will still be connected to the arduino, but it will be screwed in as stated above.
